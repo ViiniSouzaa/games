@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.edu.utfpr.danielproenca.games">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activitys.Menu">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activitys.About"
+            android:parentActivityName=".activitys.Menu">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activitys.Menu" />
+        </activity>
+        <activity
+            android:name=".activitys.ChooseGames"
+            android:parentActivityName=".activitys.Menu">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activitys.Menu" />
+        </activity>
+        <activity
+            android:name=".activitys.Pubg"
+            android:parentActivityName=".activitys.ChooseGames">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activitys.Menu" />
+        </activity>
+        <activity
+            android:name=".activitys.Soccer"
+            android:parentActivityName=".activitys.ChooseGames">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activitys.Menu" />
+        </activity>
+        <activity
+            android:name=".activitys.ShowDataPubg"
+            android:parentActivityName=".activitys.Pubg">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activitys.Menu" />
+        </activity>
+        <activity
+            android:name=".activitys.ShowDataSoccer"
+            android:parentActivityName=".activitys.Soccer">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activitys.Menu" />
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="level">Nível</string>
+    <string name="rounds">Rodadas</string>
+    <string name="slaughter">Abates</string>
+    <string name="btnSend">Enviar</string>
+    <string name="btnClear">Limpar</string>
+    <string name="btnShow">Mostrar</string>
+    <string name="error_nickname">Apelido não pode estar vazio</string>
+    <string name="yellow">Amarelo</string>
+    <string name="blue">Azul</string>
+    <string name="red">Vermelho</string>
+    <string name="authorship">Daniel Medeiros de Proença - 2019</string>
+    <string name="message_clear">Campos Limpos</string>
+    <string name="nickname">Apelido</string>
+    <string name="information">Esse aplicativo tem o intuito de armazenar estatísticas de games."\n"
+                               No jogo PUBG o usuário insere o seu nome, seu level, quantidade de partidas,
+                               e quantidades de abates, salvando essas estatíscas elas podem ser visualizadas no campo Mostrar.
+                               "\n" OBS: Em desenvolvimento para cadastros de outros jogos.</string>
+    <string name="delete">Excluir</string>
+    <string name="change">Alterar</string>
+    <string name="development">Em desenvolvimento</string>
+    <string name="soccer">Futebol</string>
+    <string name="sendgame">Enviar Jogo</string>
+    <string name="app_name">Jogos</string>
+    <string name="choose">Escolha</string>
+    <string name="error_choosegame">Jogo não pode estar vazio</string>
+    <string name="goals">Gols</string>
+    <string name="roundsS">Partidas</string>
+    <string name="team">Time</string>
+    <string name="btnClearS">Clear</string>
+    <string name="btnSendS">Send</string>
+    <string name="btnShowS">Show</string>
+    <string name="btnchoosegame">Escolha o Jogo</string>
+    <string name="white">Branco</string>
+</resources>

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">GAMES</string>
+    <string name="nickname">NickName</string>
+    <string name="level">Level</string>
+    <string name="rounds">Rounds</string>
+    <string name="slaughter">Slaughter</string>
+    <string name="btnSend">Send</string>
+    <string name="btnClear">Clear</string>
+    <string name="btnShow">Show</string>
+    <string name="error_nickname">NickName can not be empty</string>
+    <string name="error_choosegame">Games can not be empty</string>
+    <string name="message_clear">Fields clear</string>
+    <string name="white">White</string>
+    <string name="blue">Blue</string>
+    <string name="red">Red</string>
+    <string name="information">This application is intended to store game statistics."\n"
+                                In the game PUBG the user enters his name, his level,
+                                number of matches, and quantities of slaughters, saving
+                                these statistics can be visualized in the field Show. "\n"
+                               "\n" OBS: In development for other game registrations. </string>
+    <string name="authorship">Daniel Medeiros de Proença - 2019</string>
+    <string name="delete">Delete</string>
+    <string name="change">Change</string>
+    <string name="development">Under development</string>
+    <string name="choose">Choose</string>
+    <string name="pubg" translatable="false">PUBG</string>
+    <string name="soccer">SOCCER</string>
+    <string name="sendgame">Send Game</string>
+    <string name="team">Team</string>
+    <string name="goals">Goals</string>
+    <string name="roundsS">Rounds</string>
+    <string name="btnSendS">Send</string>
+    <string name="btnClearS">Clear</string>
+    <string name="btnShowS">Show</string>
+    <string name="btnchoosegame">Choose Game</string>
+
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/MenuMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activitys.Menu">
+
+    <ImageView
+        android:id="@+id/imageViewAdd"
+        android:layout_width="80dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:onClick="imageViewAdd"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewSearch"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+    <ImageView
+        android:id="@+id/imageViewSearch"
+        android:layout_width="80dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:onClick="imageViewSearch"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewInfo"
+        app:layout_constraintStart_toEndOf="@+id/imageViewAdd"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_search_black_24dp" />
+
+    <ImageView
+        android:id="@+id/imageViewInfo"
+        android:layout_width="80dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:onClick="imageViewInfo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewSearch"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_info_details" />
+
+</android.support.constraint.ConstraintLayout>
