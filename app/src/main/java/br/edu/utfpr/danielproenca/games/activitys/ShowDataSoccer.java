@@ -85,7 +85,7 @@ public class ShowDataSoccer extends AppCompatActivity {
             public void onClick(DialogInterface dialog, int which) {
                 RegisterSoccer s = GamesDatabase.getDatabase(getApplicationContext()).daoSoccer().getById(registerSoccers.get(positionSelected).getId());
                 GamesDatabase.getDatabase(getApplicationContext()).daoSoccer().delete(s);
-                populaLista();
+                fillList();
             }
         });
         confirm.setNegativeButton(R.string.no, new DialogInterface.OnClickListener() {
@@ -134,10 +134,10 @@ public class ShowDataSoccer extends AppCompatActivity {
                 return true;
             }
         });
-        populaLista();
+        fillList();
     }
 
-    private void populaLista() {
+    private void fillList() {
         registerSoccers = GamesDatabase.getDatabase(getApplicationContext()).daoSoccer().getAll();
 
         ArrayAdapter<RegisterPubg> adapter =
