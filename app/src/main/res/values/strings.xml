@@ -33,5 +33,8 @@
     <string name="btnClearS">Clear</string>
     <string name="btnShowS">Show</string>
     <string name="btnchoosegame">Choose Game</string>
+    <string name="confirmDelete">DO YOU WISH TO EXCLUDE</string>
+    <string name="yes">YES</string>
+    <string name="no">no</string>
 
 </resources>

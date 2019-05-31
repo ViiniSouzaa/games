@@ -49,14 +49,29 @@
             android:parentActivityName=".activitys.Pubg">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".activitys.Menu" />
+                android:value=".activitys.ChooseGamesList" />
         </activity>
         <activity
             android:name=".activitys.ShowDataSoccer"
             android:parentActivityName=".activitys.Soccer">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activitys.ChooseGamesList" />
+        </activity>
+        <activity android:name=".activitys.ChooseGamesList">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
                 android:value=".activitys.Menu" />
+        </activity>
+        <activity android:name=".activitys.ChangePubg">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activitys.ShowDataPubg" />
+        </activity>
+        <activity android:name=".activitys.ChangeSoccer">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activitys.ShowDataSoccer" />
         </activity>
     </application>
 

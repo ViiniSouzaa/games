@@ -5,33 +5,66 @@
     build-mode="COLD"
     density="420dpi"
     format="10"
-    ir-eligibility="COMPATIBLE"
     plugin-version="3.3.2"
-    timestamp="1559192474175"
+    timestamp="1559263559799"
     token="-5372363282720955729"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="2250" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="53" />
+        duration="0" />
     <task
         name="verifier"
-        duration="4" />
+        duration="0" />
 
+    <artifact
+        location="D:\Downloads\daniel\movel-master\movel-master\Games\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\Downloads\daniel\movel-master\movel-master\Games\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        type="SPLIT" />
     <artifact
         location="D:\Downloads\daniel\movel-master\movel-master\Games\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
         type="SPLIT" />
+    <artifact
+        location="D:\Downloads\daniel\movel-master\movel-master\Games\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\Downloads\daniel\movel-master\movel-master\Games\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\Downloads\daniel\movel-master\movel-master\Games\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\Downloads\daniel\movel-master\movel-master\Games\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\Downloads\daniel\movel-master\movel-master\Games\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\Downloads\daniel\movel-master\movel-master\Games\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\Downloads\daniel\movel-master\movel-master\Games\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\Downloads\daniel\movel-master\movel-master\Games\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\Downloads\daniel\movel-master\movel-master\Games\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1559189456566"
-        verifier="FULL_BUILD_REQUESTED" >
+        ir-eligibility="CLASS_ADDED"
+        timestamp="1559230391997"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="D:\Downloads\daniel\movel-master\movel-master\Games\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
             type="SPLIT" />
@@ -39,13 +72,16 @@
             location="D:\Downloads\daniel\movel-master\movel-master\Games\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
+            location="D:\Downloads\daniel\movel-master\movel-master\Games\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
             location="D:\Downloads\daniel\movel-master\movel-master\Games\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
             location="D:\Downloads\daniel\movel-master\movel-master\Games\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="D:\Downloads\daniel\movel-master\movel-master\Games\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="D:\Downloads\daniel\movel-master\movel-master\Games\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
             location="D:\Downloads\daniel\movel-master\movel-master\Games\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
@@ -57,13 +93,10 @@
             location="D:\Downloads\daniel\movel-master\movel-master\Games\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="D:\Downloads\daniel\movel-master\movel-master\Games\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="D:\Downloads\daniel\movel-master\movel-master\Games\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
             location="D:\Downloads\daniel\movel-master\movel-master\Games\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="D:\Downloads\daniel\movel-master\movel-master\Games\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
             location="D:\Downloads\daniel\movel-master\movel-master\Games\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
@@ -74,7 +107,15 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1559191821834"
+        timestamp="1559263115415"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="D:\Downloads\daniel\movel-master\movel-master\Games\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1559263559799"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="D:\Downloads\daniel\movel-master\movel-master\Games\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
@@ -83,19 +124,19 @@
             location="D:\Downloads\daniel\movel-master\movel-master\Games\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="D:\Downloads\daniel\movel-master\movel-master\Games\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            location="D:\Downloads\daniel\movel-master\movel-master\Games\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="D:\Downloads\daniel\movel-master\movel-master\Games\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="D:\Downloads\daniel\movel-master\movel-master\Games\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
             location="D:\Downloads\daniel\movel-master\movel-master\Games\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="D:\Downloads\daniel\movel-master\movel-master\Games\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="D:\Downloads\daniel\movel-master\movel-master\Games\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="D:\Downloads\daniel\movel-master\movel-master\Games\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="D:\Downloads\daniel\movel-master\movel-master\Games\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
             location="D:\Downloads\daniel\movel-master\movel-master\Games\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
@@ -104,20 +145,14 @@
             location="D:\Downloads\daniel\movel-master\movel-master\Games\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
+            location="D:\Downloads\daniel\movel-master\movel-master\Games\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
             location="D:\Downloads\daniel\movel-master\movel-master\Games\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
             location="D:\Downloads\daniel\movel-master\movel-master\Games\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1559192474175"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="D:\Downloads\daniel\movel-master\movel-master\Games\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
     </build>
 
 </instant-run>

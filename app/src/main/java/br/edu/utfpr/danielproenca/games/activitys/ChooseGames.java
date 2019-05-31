@@ -12,45 +12,30 @@ import br.edu.utfpr.danielproenca.games.R;
 public class ChooseGames extends AppCompatActivity {
 
     private RadioGroup radioGroupChooseGames;
-    Intent intent;
-    int acao;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_choose_games);
-        intent = getIntent();
-        acao = intent.getIntExtra("acao", 0);
 
-        radioGroupChooseGames = findViewById(R.id.radioGroupChooseGames);
+        radioGroupChooseGames = findViewById(R.id.radioGroupChooseGamesList);
 
     }
 
     public void chooseGames(View view){
         switch (radioGroupChooseGames.getCheckedRadioButtonId()){
             case R.id.radioButtonSoccer:
-                if(acao == 1){
                     Intent intent = new Intent(this,
                             Soccer.class);
                     startActivity(intent);
-                }else {
-                    Intent intent = new Intent(this,
-                            ShowDataSoccer.class);
-                    startActivity(intent);
-                }
-
                 break;
 
             case R.id.radioButtonPubg:
-                if(acao == 1) {
-                    Intent intent = new Intent(this,
+                    Intent intent2 = new Intent(this,
                             Pubg.class);
-                    startActivity(intent);
-                }else{
-                    Intent intent = new Intent(this,
-                            ShowDataPubg.class);
-                    startActivity(intent);
-                }
+                    startActivity(intent2);
+
+
 
                 break;
 

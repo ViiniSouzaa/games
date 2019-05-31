@@ -126,18 +126,22 @@ public class DaoPubg_Impl implements DaoPubg {
       final int _cursorIndexOfSlaughter = _cursor.getColumnIndexOrThrow("slaughter");
       final RegisterPubg _result;
       if(_cursor.moveToFirst()) {
-        final String _tmpNickname;
-        _tmpNickname = _cursor.getString(_cursorIndexOfNickname);
-        final int _tmpLevel;
-        _tmpLevel = _cursor.getInt(_cursorIndexOfLevel);
-        final int _tmpRounds;
-        _tmpRounds = _cursor.getInt(_cursorIndexOfRounds);
-        final int _tmpSlaughter;
-        _tmpSlaughter = _cursor.getInt(_cursorIndexOfSlaughter);
-        _result = new RegisterPubg(_tmpNickname,_tmpLevel,_tmpRounds,_tmpSlaughter);
+        _result = new RegisterPubg();
         final long _tmpId;
         _tmpId = _cursor.getLong(_cursorIndexOfId);
         _result.setId(_tmpId);
+        final String _tmpNickname;
+        _tmpNickname = _cursor.getString(_cursorIndexOfNickname);
+        _result.setNickname(_tmpNickname);
+        final int _tmpLevel;
+        _tmpLevel = _cursor.getInt(_cursorIndexOfLevel);
+        _result.setLevel(_tmpLevel);
+        final int _tmpRounds;
+        _tmpRounds = _cursor.getInt(_cursorIndexOfRounds);
+        _result.setRounds(_tmpRounds);
+        final int _tmpSlaughter;
+        _tmpSlaughter = _cursor.getInt(_cursorIndexOfSlaughter);
+        _result.setSlaughter(_tmpSlaughter);
       } else {
         _result = null;
       }
@@ -162,18 +166,22 @@ public class DaoPubg_Impl implements DaoPubg {
       final List<RegisterPubg> _result = new ArrayList<RegisterPubg>(_cursor.getCount());
       while(_cursor.moveToNext()) {
         final RegisterPubg _item;
-        final String _tmpNickname;
-        _tmpNickname = _cursor.getString(_cursorIndexOfNickname);
-        final int _tmpLevel;
-        _tmpLevel = _cursor.getInt(_cursorIndexOfLevel);
-        final int _tmpRounds;
-        _tmpRounds = _cursor.getInt(_cursorIndexOfRounds);
-        final int _tmpSlaughter;
-        _tmpSlaughter = _cursor.getInt(_cursorIndexOfSlaughter);
-        _item = new RegisterPubg(_tmpNickname,_tmpLevel,_tmpRounds,_tmpSlaughter);
+        _item = new RegisterPubg();
         final long _tmpId;
         _tmpId = _cursor.getLong(_cursorIndexOfId);
         _item.setId(_tmpId);
+        final String _tmpNickname;
+        _tmpNickname = _cursor.getString(_cursorIndexOfNickname);
+        _item.setNickname(_tmpNickname);
+        final int _tmpLevel;
+        _tmpLevel = _cursor.getInt(_cursorIndexOfLevel);
+        _item.setLevel(_tmpLevel);
+        final int _tmpRounds;
+        _tmpRounds = _cursor.getInt(_cursorIndexOfRounds);
+        _item.setRounds(_tmpRounds);
+        final int _tmpSlaughter;
+        _tmpSlaughter = _cursor.getInt(_cursorIndexOfSlaughter);
+        _item.setSlaughter(_tmpSlaughter);
         _result.add(_item);
       }
       return _result;

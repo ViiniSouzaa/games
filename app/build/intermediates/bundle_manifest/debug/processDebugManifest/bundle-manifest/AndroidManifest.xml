@@ -58,14 +58,29 @@
             android:parentActivityName="br.edu.utfpr.danielproenca.games.activitys.Pubg" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".activitys.Menu" />
+                android:value=".activitys.ChooseGamesList" />
         </activity>
         <activity
             android:name="br.edu.utfpr.danielproenca.games.activitys.ShowDataSoccer"
             android:parentActivityName="br.edu.utfpr.danielproenca.games.activitys.Soccer" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activitys.ChooseGamesList" />
+        </activity>
+        <activity android:name="br.edu.utfpr.danielproenca.games.activitys.ChooseGamesList" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
                 android:value=".activitys.Menu" />
+        </activity>
+        <activity android:name="br.edu.utfpr.danielproenca.games.activitys.ChangePubg" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activitys.ShowDataPubg" />
+        </activity>
+        <activity android:name="br.edu.utfpr.danielproenca.games.activitys.ChangeSoccer" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activitys.ShowDataSoccer" />
         </activity>
 
         <provider

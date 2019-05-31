@@ -19,6 +19,9 @@ public class RegisterPubg {
         setRounds(rounds);
         setSlaughter(slaughter);
     }
+    public RegisterPubg(){
+
+    }
 
     public long getId() {
         return id;

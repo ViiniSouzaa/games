@@ -124,7 +124,7 @@ public class Menu extends AppCompatActivity {
 
     public void imageViewSearch(View view) {
         Intent intent = new Intent(this,
-                ChooseGames.class);
+                ChooseGamesList.class);
         intent.putExtra("acao", 2);
         startActivity(intent);
     }
